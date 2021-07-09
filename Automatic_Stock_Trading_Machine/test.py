@@ -1,11 +1,6 @@
 import requests
 import urllib3
-
-'''
-Main machine
-widget
-
-'''
+import numpy as np
 
 urllib3.disable_warnings()
 
@@ -18,10 +13,10 @@ class Machine():
         
     
     def initialize(self):
+
         self.get_stock()
 
     def get_stock(self):
-        #use 2330.TW 
         self.header = {"..."}
         self.url = "..."
 
@@ -32,4 +27,4 @@ class Machine():
 
 if __name__ == '__main__':
     machine = Machine()
-    print("finish")
+    print("test")
