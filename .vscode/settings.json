@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./Lib/site-packages/pip/_vendor",
+        "./Lib/site-packages"
+    ]
+}
