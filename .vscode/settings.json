@@ -1,6 +1,7 @@
 {
     "python.analysis.extraPaths": [
         "./Lib/site-packages/pip/_vendor",
-        "./Lib/site-packages"
+        "./Lib/site-packages",
+        "./Automatic_Stock_Trading_Machine/.vscode"
     ]
 }
